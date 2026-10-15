@@ -1,5 +1,7 @@
 # PopCraft — 3D Pop-Up Cards & Wedding Invitations
 
+🌐 **Демо-сайт на GitHub Pages:** [https://vladimir214sd.github.io/popcraft/](https://vladimir214sd.github.io/popcraft/)
+
 Веб-витрина и интерактивный каталог объемных 3D-открыток ручной сборки с эффектом раскрытия («книжки-раскладушки»).
 
 Разработано на основе проектных исследований и CustDev команды **РИС-23-4**:
