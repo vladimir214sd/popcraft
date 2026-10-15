@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    background-color: #FAF7F2;
+    color: #2D241E;
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  }
+
+  h1, h2, h3, .font-serif {
+    font-family: 'Cormorant Garamond', Georgia, serif;
+  }
+}
+
+/* 3D Transform Utilities for Pop-Up Card Mechanics */
+.perspective-1000 {
+  perspective: 1000px;
+}
+
+.perspective-1500 {
+  perspective: 1500px;
+}
+
+.transform-style-3d {
+  transform-style: preserve-3d;
+}
+
+.backface-hidden {
+  backface-visibility: hidden;
+}
+
+/* Paper noise effect & subtle shadows */
+.paper-texture {
+  background-color: #FAF7F2;
+  background-image: radial-gradient(#d3c5b4 0.65px, transparent 0.65px), radial-gradient(#d3c5b4 0.65px, #FAF7F2 0.65px);
+  background-size: 26px 26px;
+  background-position: 0 0, 13px 13px;
+}
+
+.card-shadow {
+  box-shadow: 0 10px 30px -5px rgba(60, 40, 25, 0.12), 0 4px 10px -2px rgba(60, 40, 25, 0.05);
+}
+
+.card-open-shadow {
+  box-shadow: 0 25px 50px -12px rgba(60, 40, 25, 0.22), 0 12px 24px -6px rgba(60, 40, 25, 0.12);
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1ebd9;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #d4be9e;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #ba9570;
+}
