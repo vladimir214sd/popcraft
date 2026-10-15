@@ -124,7 +124,7 @@ export default function CustomizerModal({ card, isOpen, onClose, onAddToCart }) 
               </label>
               <input
                 type="text"
-                placeholder="Например: Любимая мама, Катя, Иван..."
+                placeholder="Например: Любимая мама, Для тебя, С праздником..."
                 value={recipient}
                 onChange={(e) => setRecipient(e.target.value)}
                 maxLength={40}

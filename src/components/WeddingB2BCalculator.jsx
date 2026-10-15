@@ -252,7 +252,7 @@ export default function WeddingB2BCalculator({ onAddBulkOrder }) {
                   <input
                     type="text"
                     required
-                    placeholder="Алина (невеста) / Студия дизайна..."
+                    placeholder="Свадебная пара / Студия дизайна..."
                     value={clientName}
                     onChange={(e) => setClientName(e.target.value)}
                     className="w-full px-3.5 py-2.5 rounded-xl border border-kraft-300 text-xs focus:outline-none focus:border-terracotta-500"

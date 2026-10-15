@@ -290,7 +290,7 @@ export default function CartDrawer({
                   <input
                     type="text"
                     required
-                    placeholder="Иван Петров"
+                    placeholder="Имя получателя"
                     value={customerName}
                     onChange={(e) => setCustomerName(e.target.value)}
                     className="w-full px-3.5 py-2.5 rounded-xl border border-kraft-300 text-xs focus:outline-none focus:border-terracotta-500"

@@ -49,20 +49,20 @@ export default function Footer() {
             </div>
             <div className="grid grid-cols-2 gap-3 text-xs pt-1">
               <div>
-                <p className="font-medium text-white">Емельянов Вова</p>
-                <p className="text-[11px] text-amber-300/60">Product Manager & Концепция</p>
+                <p className="font-medium text-white">Product Management</p>
+                <p className="text-[11px] text-amber-300/60">CustDev & Концепция продукта</p>
               </div>
               <div>
-                <p className="font-medium text-white">Баталов Владимир</p>
-                <p className="text-[11px] text-amber-300/60">Бизнес-аналитик & Финмодель</p>
+                <p className="font-medium text-white">Бизнес-аналитика</p>
+                <p className="text-[11px] text-amber-300/60">Финмодель & Юнит-экономика</p>
               </div>
               <div>
-                <p className="font-medium text-white">Исмоилов Азизбек</p>
-                <p className="text-[11px] text-amber-300/60">Tech Lead & Разработка MVP</p>
+                <p className="font-medium text-white">Frontend-разработка</p>
+                <p className="text-[11px] text-amber-300/60">3D-механики & Архитектура MVP</p>
               </div>
               <div>
-                <p className="font-medium text-white">Суворов Егор</p>
-                <p className="text-[11px] text-amber-300/60">Дизайнер продукта & Маркетинг</p>
+                <p className="font-medium text-white">Дизайн & Маркетинг</p>
+                <p className="text-[11px] text-amber-300/60">Pop-up макеты & Воронка продаж</p>
               </div>
             </div>
             <p className="text-[10px] text-amber-200/50 pt-2 border-t border-white/5 font-mono">
